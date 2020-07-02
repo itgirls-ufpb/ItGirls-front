@@ -48,6 +48,7 @@ ul a {
   background-color: white;
   padding: 40px;
   border-radius: 20px;
+  box-shadow: 10px -5px 5px #A87777;
 }
 
 #news-row {
@@ -62,6 +63,7 @@ ul a {
 #news-box {
   border: 2px solid #AF2F1A;
   border-radius: 20px;
+  margin: 20px;
 }
 
 .titulo-noticia {

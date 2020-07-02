@@ -4,7 +4,7 @@ import Photo from '../img/photo.png'
 class ColunaNoticias extends Component {
     render() {
       return (
-        <div className="col" id="inside-box-news">
+        <div className="col">
             <h1>Tipo de Notícia</h1>
             <LinhaNoticia/>
             <LinhaNoticia/>
@@ -38,7 +38,7 @@ export default class News extends Component {
         <div className="container">
             <h1 className="titulo-noticia">NOTÍCIAS</h1>
             <div id="news-row">
-              <div className="row">
+              <div className="row" id="inside-box-news">
                   <ColunaNoticias/>
                   <ColunaNoticias/>
               </div>
