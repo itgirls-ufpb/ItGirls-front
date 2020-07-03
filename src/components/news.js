@@ -30,8 +30,6 @@ class LinhaNoticia extends Component {
     };
 };
 
-
-
 export default class News extends Component {
     render() {
       return (
