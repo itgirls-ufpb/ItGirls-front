@@ -6,9 +6,12 @@ import News from './components/news';
  
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <MenuITGirls/>
-      <News/>
+      <div className="container">
+        <h1 className="titulo-container">NOTÍCIAS</h1>
+        <News/>
+      </div>
     </div>
   );
 }
