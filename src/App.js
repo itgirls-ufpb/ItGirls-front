@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <MenuITGirls/>
       <div className="container">
-        <h1 className="titulo-container">NOTÍCIAS</h1>
         <News/>
       </div>
     </div>
