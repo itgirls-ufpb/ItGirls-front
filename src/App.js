@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
+import FullWidthGrid from './components/eventos';
 import MenuITGirls from './components/menu';
-import News from './components/news';
 
  
 function App() {
   return (
     <div className="App">
       <MenuITGirls/>
-      <div className="container">
-        <News/>
-      </div>
+      <FullWidthGrid/>
     </div>
   );
 }
